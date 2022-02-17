@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="Assets/drone-svgrepo-com.svg" />
+    <title>Dronelivery!</title>
+
+       <style>
+        html {
+          scroll-behavior: smooth;
+        }
+        .bodyclass{
+            background-image: url("Assets/Background.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: #f7e2c0;
+        }
+        .class1{
+            background-image: url("Assets/CTA+header.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .btncard:hover{
+          background-color: #F95C19;
+          color:#FFF !important;
+        }
+
+        @media only screen and (max-width: 600px) {
+          .widthcontrol{
+            width: 90%;
+            font-size: medium;
+          }
+          .Testimonialscard{
+            min-height: 250px;
+          }
+          .rcol{
+            height: fit-content;
+          }
+        }
+
+        @media only screen and (min-width: 600px) {
+          .widthcontrol{
+            width: 70%;
+          }
+          .rcol{
+            height: fit-content;
+          }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+          .widthcontrol{
+            width: 70%;
+          }
+          .rcol{
+            height: fit-content;
+          }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+          .widthcontrol{
+            width: 70%;
+          }
+          .rcol{
+            height: 450px;
+          }
+        }
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+          .widthcontrol{
+            width: 70%;
+          }
+          .rcol{
+            height: 450px;
+          }
+        }
+    </style>
+  </head>
+  <body class="bodyclass" onload="" onresize="" style="height:100%;">
+  
+    <div class="class1 mb-3 h-100" style="height:100%">
+          <nav class="navbar navbar-expand-lg navbar-light" style="background-color: none;">
+            <a class="navbar-brand" href="#" style="font-weight: 600;">Dronelivery</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="width: 100%;">
+              <div class="navbar-nav d-flex justify-content-md-end pr-4" style="width:100%">
+                <a class="nav-item nav-link active" href="#" style="font-weight: 600;">Home </a>
+                <a class="nav-item nav-link" href="#services" style="font-weight: 600;">Our Services</a>
+                <a class="nav-item nav-link" href="#aboutus" style="font-weight: 600;">About Us</a>
+                <a class="nav-item nav-link" href="#contactus" style="font-weight: 600;">Contact Us</a>
+              </div>
+            </div>
+          </nav>
+
+
+          <div class="h2 container mt-5 mb-5" style="color: #261134;height:100%;">
+            <div class="row" style="height: 100%;">
+                <div class="col col-12 col-md-7 d-flex flex-column justify-content-center">
+                  A trusted provider of<br>
+                  <p style="font-weight: bolder;">convenient courier service</p>
+                  <p style="font-size: large;font-weight: 500; width: 90%;">
+                    We deliver your products at your convenient time. Experience our hassle free service today.
+                  </p>
+                  <button class="btn btn-warning mt-3" style="background-color:#F95C19;font-weight: bolder;width:fit-content;color:#FFF;font-size: large;display: block;">Get Started</button>
+                </div>
+                <div class="col col-sm-12 col-md-5 d-flex justify-content-center align-items-center" style="height: 100%;">
+                  <img class="img-fluid d-md-block d-none" src="./Assets/introimg.png">
+                </div>
+            </div>
+          </div>  
+    </div>
+
+
+    <div class="container pt-md-5 pb-md-5" id="services" style="min-height:100%">
+        <div class="row d-flex justify-content-center align-items-center h5" style="height:20%;color:#F95C19;font-weight: bolder;">
+            <center>
+             SERVICES <br>
+             <p class="mt-2" style="color:#000;">Our Services for you.</p>
+            </center>
+        </div>
+
+        <div class="row d-flex flex-row justify-content-around" style="height:80%;">
+
+          <div class="col col-12 col-md-4">
+              <div class="card d-block mt-2" id="servicescard" style="height: fit-content;">
+                <div class="d-flex flex-row justify-content-around align-items-center">
+                <svg class="mx-5 mt-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" height="80px" width="80px" id="Layer_1" x="0px" y="0px" viewBox="0 0 512.853 512.853" style="enable-background:new 0 0 512.853 512.853;fill: #F95C19;" xml:space="preserve">
+                  <g>
+                    <g>
+                      <path d="M503.467,47.36H460.8V32.853c0-11.093-8.533-19.627-19.627-19.627h-11.947c-11.093,0-19.627,8.533-19.627,19.627V47.36    h-42.667c-5.12,0-8.533,3.413-8.533,8.533s3.413,8.533,8.533,8.533H409.6v14.507c0,10.24,7.68,17.92,17.067,19.627v27.307    c-10.24,3.413-17.067,12.8-17.067,23.893v29.867l-51.2,38.4v-7.68c0-10.24-7.68-17.92-17.92-17.92H281.6V149.76    c0-5.12-3.413-8.533-8.533-8.533c-5.12,0-8.533,3.413-8.533,8.533v42.667h-17.067v-25.6c0-5.12-3.413-8.533-8.533-8.533    s-8.533,3.413-8.533,8.533v25.6h-58.88c-10.24,0-17.92,7.68-17.92,17.92v7.68l-51.2-38.4V149.76    c0-11.093-6.827-20.48-17.067-23.893V98.56c9.387-0.853,17.067-9.387,17.067-19.627V64.427h42.667c5.12,0,8.533-3.413,8.533-8.533    s-3.413-8.533-8.533-8.533H102.4V32.853c0-11.093-8.533-19.627-19.627-19.627H70.827c-11.093,0-19.627,8.533-19.627,19.627V47.36    H8.533C3.413,47.36,0,50.773,0,55.893s3.413,8.533,8.533,8.533H51.2v14.507c0,10.24,7.68,17.92,17.067,19.627v27.307    c-10.24,3.413-17.067,12.8-17.067,23.893v136.533c0,14.507,11.093,25.6,25.6,25.6s25.6-11.093,25.6-25.6v-32.427l43.52,37.547    c-31.573,20.48-65.707,90.453-69.12,148.48H128c4.267-63.147,55.467-110.933,76.8-110.933h17.067v17.067h-18.773    c-8.533,0-15.36,6.827-15.36,15.36v106.667c0,8.533,6.827,15.36,15.36,15.36H309.76c8.533,0,15.36-6.827,15.36-15.36V361.387    c0-8.533-6.827-15.36-15.36-15.36h-19.627V328.96H307.2c21.333,0,71.68,47.787,76.8,110.933h51.2    c-3.413-58.027-36.693-128-68.267-148.48l43.52-37.547v32.427c0,14.507,11.093,25.6,25.6,25.6s25.6-11.093,25.6-25.6V149.76    c0-11.093-6.827-20.48-17.067-23.893V98.56c9.387-0.853,17.067-9.387,17.067-19.627V64.427h42.667c5.12,0,8.533-3.413,8.533-8.533    C512,50.773,508.587,47.36,503.467,47.36z M68.267,32.853c0-1.707,0.853-2.56,2.56-2.56h11.947c1.707,0,2.56,0.853,2.56,2.56    V47.36H68.267V32.853z M82.773,81.493H70.827c-1.707,0-2.56-0.853-2.56-2.56V64.427h17.067v14.507    C85.333,80.64,84.48,81.493,82.773,81.493z M153.6,276.053l-51.2-44.373v-30.72l51.2,38.4V276.053z M221.867,235.093h68.267    c5.12,0,8.533,3.413,8.533,8.533s-3.413,8.533-8.533,8.533h-68.267c-5.12,0-8.533-3.413-8.533-8.533    S216.747,235.093,221.867,235.093z M285.867,430.507c-1.707,0.853-2.56,0.853-4.267,0.853s-3.413-0.853-5.12-1.707L256,416    l-20.48,13.653c-2.56,1.707-5.973,1.707-8.533,0c-3.413-0.853-5.12-3.413-5.12-6.827v-59.733h17.067v43.52l11.947-8.533    c2.56-1.707,6.827-1.707,9.387,0l11.947,8.533v-43.52h17.067v59.733h0.853C290.133,426.24,288.427,428.8,285.867,430.507z     M238.933,346.027V328.96h34.133v17.067H238.933z M315.733,286.293H196.267c-5.12,0-8.533-3.413-8.533-8.533    s3.413-8.533,8.533-8.533h119.467c5.12,0,8.533,3.413,8.533,8.533S320.853,286.293,315.733,286.293z M409.6,230.827L358.4,275.2    v-36.693l51.2-38.4V230.827z M443.733,78.933c0,1.707-0.853,2.56-2.56,2.56h-11.947c-1.707,0-2.56-0.853-2.56-2.56V64.427h17.067    V78.933z M443.733,47.36h-17.067V32.853c0-1.707,0.853-2.56,2.56-2.56h11.947c1.707,0,2.56,0.853,2.56,2.56V47.36z"/>
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path d="M76.8,456.96V480c0,11.093,8.533,19.627,19.627,19.627h11.947c11.093,0,19.627-8.533,19.627-19.627v-23.04H76.8z"/>
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path d="M384,456.96V480c0,11.093,8.533,19.627,19.627,19.627h11.947c11.093,0,19.627-8.533,19.627-19.627v-23.04H384z"/>
+                    </g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                </svg>
+                </div>
+                <div class="card-body" style="color: #261134;">
+                  <center>
+                      <h5 style="font-weight: bold;">Drone Delivery</h5>  <br>      
+                  </center>  
+                  <p style="margin-left: 20px;">
+                    We provide a faster delivery of products inside of major cities within a few hours via drones.
+                  </p>
+                  <ul style="color:#F95C19">
+                    <li><span style="color: #261134;font-weight: 500;">Corporate Shipments</span></li>
+                    <li><span style="color: #261134;font-weight: 500;">Accessories</span></li>
+                    <li><span style="color: #261134;font-weight: 500;">Medical Goods</span></li>
+                  </ul>
+                  <button class="btn btncard btn-outline-success mt-3 my-4" style="width:100%;border-color: #F95C19;color: #F95C19;font-weight: bold;">Learn More</button>
+                </div>
+              </div>
+          </div>
+
+          <div class="col col-12 col-md-4">
+              <div class="card d-block mt-2" id="servicescard" style="height: fit-content;">
+                <div class="d-flex flex-row justify-content-around align-items-center">
+                  <svg class="mt-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="80px" height="80px" viewBox="0 0 31.416 31.416" style="enable-background:new 0 0 31.416 31.416;fill: #F95C19;" xml:space="preserve">
+                    <g>
+                      <g>
+                        <path d="M28.755,6.968l-0.47,0.149L25.782,7.34l-0.707,1.129l-0.513-0.163L22.57,6.51l-0.289-0.934L21.894,4.58l-1.252-1.123    l-1.477-0.289l-0.034,0.676l1.447,1.412l0.708,0.834L20.49,6.506l-0.648-0.191L18.871,5.91l0.033-0.783l-1.274-0.524l-0.423,1.841    l-1.284,0.291l0.127,1.027l1.673,0.322l0.289-1.641l1.381,0.204l0.642,0.376h1.03l0.705,1.412l1.869,1.896l-0.137,0.737    l-1.507-0.192l-2.604,1.315l-1.875,2.249l-0.244,0.996h-0.673l-1.254-0.578l-1.218,0.578l0.303,1.285l0.53-0.611l0.932-0.029    l-0.065,1.154l0.772,0.226l0.771,0.866l1.259-0.354l1.438,0.227l1.67,0.449l0.834,0.098l1.414,1.605l2.729,1.605l-1.765,3.372    l-1.863,0.866l-0.707,1.927l-2.696,1.8l-0.287,1.038c6.892-1.66,12.019-7.851,12.019-15.253    C31.413,12.474,30.433,9.465,28.755,6.968z"/>
+                        <path d="M17.515,23.917l-1.144-2.121l1.05-2.188l-1.05-0.314l-1.179-1.184l-2.612-0.586l-0.867-1.814v1.077h-0.382l-2.251-3.052    v-2.507L7.43,8.545L4.81,9.012H3.045L2.157,8.43L3.29,7.532L2.16,7.793c-1.362,2.326-2.156,5.025-2.156,7.916    c0,8.673,7.031,15.707,15.705,15.707c0.668,0,1.323-0.059,1.971-0.137l-0.164-1.903c0,0,0.721-2.826,0.721-2.922    C18.236,26.357,17.515,23.917,17.515,23.917z"/>
+                        <path d="M5.84,5.065l2.79-0.389l1.286-0.705l1.447,0.417l2.312-0.128l0.792-1.245l1.155,0.19l2.805-0.263L19.2,2.09l1.09-0.728    l1.542,0.232l0.562-0.085C20.363,0.553,18.103,0,15.708,0C10.833,0,6.474,2.222,3.596,5.711h0.008L5.84,5.065z M16.372,1.562    l1.604-0.883l1.03,0.595l-1.491,1.135l-1.424,0.143l-0.641-0.416L16.372,1.562z M11.621,1.691l0.708,0.295l0.927-0.295    l0.505,0.875l-2.14,0.562l-1.029-0.602C10.591,2.526,11.598,1.878,11.621,1.691z"/>
+                      </g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    </svg>
+                </div>
+                <div class="card-body" style="color: #261134;">
+                  <center>
+                      <h5 style="font-weight: bold;">World Wide Shipping</h5>  <br>      
+                  </center>  
+                  <p style="margin-left: 20px;">
+                    We provide reliable world wide shipping services through both air and water mediums.
+                  </p>
+                  <ul style="color:#F95C19">
+                    <li><span style="color: #261134;font-weight: 500;">Corporate Shipments</span></li>
+                    <li><span style="color: #261134;font-weight: 500;">Gifts</span></li>
+                    <li><span style="color: #261134;font-weight: 500;">Export Goods</span></li>
+                  </ul>
+                  <button class="btn btncard btn-outline-success mt-3 my-4" style="width:100%;border-color: #F95C19;color: #F95C19;font-weight: bold;">Learn More</button>
+                </div>
+              </div>
+          </div>
+
+          <div class="col col-12 col-md-4">
+                <div class="card d-block mt-2" id="servicescard" style="height: fit-content;">
+                  <div class="d-flex flex-row justify-content-around align-items-center">
+                    <svg class="mt-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;fill: #F95C19;height:80px;width:80px;" xml:space="preserve">
+                      <g>
+                        <g>
+                          <path d="M469.289,48.943H361.93c-5.632,0-10.199,4.566-10.199,10.199v187.747h-69.976v-83.336V10.199    C281.755,4.566,277.188,0,271.556,0h-61.352c-5.632,0-10.199,4.566-10.199,10.199v143.154h-22.538V96.892    c0-5.633-4.567-10.199-10.199-10.199c-5.632,0-10.199,4.566-10.199,10.199v56.461h-11.034c-5.632,0-10.199,4.566-10.199,10.199    v49.619H83.634v-37.745c0-5.633-4.567-10.199-10.199-10.199s-10.199,4.566-10.199,10.199v37.746H42.711    c-5.632,0-10.199,4.566-10.199,10.199v278.429c0,5.633,4.567,10.199,10.199,10.199h426.578c5.632,0,10.199-4.566,10.199-10.199    V59.142C479.488,53.509,474.921,48.943,469.289,48.943z M135.835,491.602H52.91V233.571h82.925V491.602z M261.357,491.602H156.233    v-317.85h105.123V491.602z M261.357,153.353h-40.954V20.398h40.954V153.353z M351.723,491.602h-69.968V267.286h69.968V491.602z     M459.09,491.602h-86.96V69.341h86.96V491.602z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M186.276,199.033c-5.632,0-10.199,4.566-10.199,10.199v13.542c0,5.633,4.566,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199v-13.542C196.475,203.6,191.908,199.033,186.276,199.033z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M229.781,199.033c-5.632,0-10.199,4.566-10.199,10.199v13.542c0,5.633,4.567,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199v-13.542C239.98,203.6,235.413,199.033,229.781,199.033z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M240.656,105.499c-5.632,0-10.199,4.566-10.199,10.199v13.542c0,5.633,4.567,10.199,10.199,10.199    s10.199-4.566,10.199-10.199v-13.542C250.856,110.065,246.289,105.499,240.656,105.499z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M240.656,52.206c-5.632,0-10.199,4.566-10.199,10.199v13.542c0,5.633,4.567,10.199,10.199,10.199    s10.199-4.566,10.199-10.199V62.405C250.856,56.772,246.289,52.206,240.656,52.206z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M186.276,258.412c-5.632,0-10.199,4.566-10.199,10.199v13.542c0,5.633,4.566,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199v-13.542C196.475,262.978,191.908,258.412,186.276,258.412z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M229.781,258.412c-5.632,0-10.199,4.566-10.199,10.199v13.542c0,5.633,4.567,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199v-13.542C239.98,262.978,235.413,258.412,229.781,258.412z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M186.276,313.622c-5.632,0-10.199,4.566-10.199,10.199v13.543c0,5.633,4.566,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199v-13.542C196.475,318.189,191.908,313.622,186.276,313.622z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M229.781,313.622c-5.632,0-10.199,4.566-10.199,10.199v13.543c0,5.633,4.567,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199v-13.542C239.98,318.189,235.413,313.622,229.781,313.622z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M186.276,373.001c-5.632,0-10.199,4.566-10.199,10.199v13.543c0,5.633,4.566,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199V383.2C196.475,377.567,191.908,373.001,186.276,373.001z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M229.781,373.001c-5.632,0-10.199,4.566-10.199,10.199v13.543c0,5.633,4.567,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199V383.2C239.98,377.567,235.413,373.001,229.781,373.001z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M186.276,432.379c-5.632,0-10.199,4.566-10.199,10.199v13.543c0,5.633,4.566,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199v-13.542C196.475,436.945,191.908,432.379,186.276,432.379z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M229.781,432.379c-5.632,0-10.199,4.566-10.199,10.199v13.543c0,5.633,4.567,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199v-13.542C239.98,436.945,235.413,432.379,229.781,432.379z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M398.361,199.033c-5.632,0-10.199,4.566-10.199,10.199v13.542c0,5.633,4.567,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199v-13.542C408.56,203.6,403.993,199.033,398.361,199.033z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M436.427,199.033c-5.632,0-10.199,4.566-10.199,10.199v13.542c0,5.633,4.567,10.199,10.199,10.199    s10.199-4.566,10.199-10.199v-13.542C446.626,203.6,442.059,199.033,436.427,199.033z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M398.361,258.412c-5.632,0-10.199,4.566-10.199,10.199v13.542c0,5.633,4.567,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199v-13.542C408.56,262.978,403.993,258.412,398.361,258.412z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M436.427,258.412c-5.632,0-10.199,4.566-10.199,10.199v13.542c0,5.633,4.567,10.199,10.199,10.199    s10.199-4.566,10.199-10.199v-13.542C446.626,262.978,442.059,258.412,436.427,258.412z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M398.361,313.622c-5.632,0-10.199,4.566-10.199,10.199v13.543c0,5.633,4.567,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199v-13.542C408.56,318.189,403.993,313.622,398.361,313.622z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M436.427,313.622c-5.632,0-10.199,4.566-10.199,10.199v13.543c0,5.633,4.567,10.199,10.199,10.199    s10.199-4.566,10.199-10.199v-13.542C446.626,318.189,442.059,313.622,436.427,313.622z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M398.361,85.688c-5.632,0-10.199,4.566-10.199,10.199v13.543c0,5.633,4.567,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199V95.887C408.56,90.254,403.993,85.688,398.361,85.688z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M436.427,85.688c-5.632,0-10.199,4.566-10.199,10.199v13.543c0,5.633,4.567,10.199,10.199,10.199    s10.199-4.566,10.199-10.199V95.887C446.626,90.254,442.059,85.688,436.427,85.688z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M398.361,140.899c-5.632,0-10.199,4.566-10.199,10.199v13.542c0,5.633,4.567,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199v-13.542C408.56,145.465,403.993,140.899,398.361,140.899z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M436.427,140.899c-5.632,0-10.199,4.566-10.199,10.199v13.542c0,5.633,4.567,10.199,10.199,10.199    s10.199-4.566,10.199-10.199v-13.542C446.626,145.465,442.059,140.899,436.427,140.899z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M398.361,373.001c-5.632,0-10.199,4.566-10.199,10.199v13.543c0,5.633,4.567,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199V383.2C408.56,377.567,403.993,373.001,398.361,373.001z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M436.427,373.001c-5.632,0-10.199,4.566-10.199,10.199v13.543c0,5.633,4.567,10.199,10.199,10.199    s10.199-4.566,10.199-10.199V383.2C446.626,377.567,442.059,373.001,436.427,373.001z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M398.361,432.379c-5.632,0-10.199,4.566-10.199,10.199v13.543c0,5.633,4.567,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199v-13.542C408.56,436.945,403.993,432.379,398.361,432.379z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M436.427,432.379c-5.632,0-10.199,4.566-10.199,10.199v13.543c0,5.633,4.567,10.199,10.199,10.199    s10.199-4.566,10.199-10.199v-13.542C446.626,436.945,442.059,432.379,436.427,432.379z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M113.405,253.414H76.428c-5.632,0-10.199,4.566-10.199,10.199s4.567,10.199,10.199,10.199h36.978    c5.632,0,10.199-4.566,10.199-10.199S119.038,253.414,113.405,253.414z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M113.405,292.928H76.428c-5.632,0-10.199,4.566-10.199,10.199c0,5.633,4.567,10.199,10.199,10.199h36.978    c5.632,0,10.199-4.566,10.199-10.199C123.605,297.494,119.038,292.928,113.405,292.928z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M113.405,333.718H76.428c-5.632,0-10.199,4.566-10.199,10.199c0,5.633,4.567,10.199,10.199,10.199h36.978    c5.632,0,10.199-4.566,10.199-10.199C123.605,338.284,119.038,333.718,113.405,333.718z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M113.405,373.232H76.428c-5.632,0-10.199,4.566-10.199,10.199c0,5.633,4.567,10.199,10.199,10.199h36.978    c5.632,0,10.199-4.566,10.199-10.199C123.605,377.798,119.038,373.232,113.405,373.232z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M113.405,414.021H76.428c-5.632,0-10.199,4.566-10.199,10.199c0,5.633,4.567,10.199,10.199,10.199h36.978    c5.632,0,10.199-4.566,10.199-10.199C123.605,418.588,119.038,414.021,113.405,414.021z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M113.405,453.535H76.428c-5.632,0-10.199,4.566-10.199,10.199c0,5.633,4.567,10.199,10.199,10.199h36.978    c5.632,0,10.199-4.566,10.199-10.199C123.605,458.101,119.038,453.535,113.405,453.535z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M328.753,281.692H302.65c-5.632,0-10.199,4.566-10.199,10.199c0,5.633,4.567,10.199,10.199,10.199h26.103    c5.632,0,10.199-4.566,10.199-10.199C338.952,286.258,334.385,281.692,328.753,281.692z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M328.753,329.547H302.65c-5.632,0-10.199,4.566-10.199,10.199c0,5.633,4.567,10.199,10.199,10.199h26.103    c5.632,0,10.199-4.566,10.199-10.199C338.952,334.114,334.385,329.547,328.753,329.547z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M328.753,378.489H302.65c-5.632,0-10.199,4.566-10.199,10.199c0,5.633,4.567,10.199,10.199,10.199h26.103    c5.632,0,10.199-4.566,10.199-10.199C338.952,383.056,334.385,378.489,328.753,378.489z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M328.753,428.52H302.65c-5.632,0-10.199,4.566-10.199,10.199c0,5.633,4.567,10.199,10.199,10.199h26.103    c5.632,0,10.199-4.566,10.199-10.199C338.952,433.086,334.385,428.52,328.753,428.52z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M167.267,43.857c-5.632,0-10.199,4.566-10.199,10.199v12.239c0,5.633,4.567,10.199,10.199,10.199    c5.632,0,10.199-4.566,10.199-10.199V54.056C177.466,48.423,172.899,43.857,167.267,43.857z"/>
+                        </g>
+                      </g>
+                      <g>
+                      </g>
+                      <g>
+                      </g>
+                      <g>
+                      </g>
+                      <g>
+                      </g>
+                      <g>
+                      </g>
+                      <g>
+                      </g>
+                      <g>
+                      </g>
+                      <g>
+                      </g>
+                      <g>
+                      </g>
+                      <g>
+                      </g>
+                      <g>
+                      </g>
+                      <g>
+                      </g>
+                      <g>
+                      </g>
+                      <g>
+                      </g>
+                      <g>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="card-body" style="color: #261134;">
+                    <center>
+                        <h5 style="font-weight: bold;">Statewide Services</h5>  <br>      
+                    </center>  
+                    <p style="margin-left: 20px;">
+                      We offer a statewide door step delivery of goods with a time limit of maximum 2 days.
+                    </p>
+                    <ul style="color:#F95C19">
+                      <li><span style="color: #261134;font-weight: 500;">Documents</span></li>
+                      <li><span style="color: #261134;font-weight: 500;">Parcels</span></li>
+                      <li><span style="color: #261134;font-weight: 500;">Deliverables</span></li>
+                    </ul>
+                    <button class="btn btncard btn-outline-success mt-3 my-4" style="width:100%;border-color: #F95C19;color: #F95C19;font-weight: bold;">Learn More</button>
+                  </div>
+                </div>
+          </div>      
+        </div>
+    </div>
+    
+
+    <div class="container mt-5 mb-5" id="aboutus" style="color: #261134;min-height:100%">
+      <div class="d-flex flex-column justify-content-center align-items-center mt-1" style="height: 100%;width:100%;">
+        <center>
+          <div class="h5 mt-2" style="color: #F95C19;font-weight: bold;">About Us</div><br>
+          <div class="mr-sm-1 ml-sm-1 ml-md-5 mr-md-5 widthcontrol" style="color: #261134;font-weight: 600;font-size: large;">
+            Dronelivery is commited to provide its customers a pleasant delivery experience.No more sudden deliveries,staying at
+            home just to collect your parcels,entrusting neighbours and valuable sick leaves for your parcels. Enjoy convenient 
+            service by using our <span style="font-weight: 700;">Vitharan</span> bot to book a parcel and its pickup, know your
+            delivery status, book international Shipments,change delivery dates, authentication and much more.
+            <br><br>
+            We make deliveries faster and quicker with our drone and transportation network in assossiation with our
+            international partners <span style="font-weight: 700;">Lufthansa Air</span> and <span style="font-weight: 700;">
+            Seametrix Waterways</span>
+
+            <div class="h5 d-flex flex-row justify-content-around align-items-center mt-5" style="font-weight: bold;color: #F95C19;">
+                 Testimonials
+            </div>
+
+            <div id="carouselExampleControls" class="carousel slide mt-2" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card d-block mt-2 Testimonialscard" style="height: fit-content;">
+                    <div class="card-body" style="color: #261134;">
+                      <center>
+                          <h5 style="font-weight: bold;color:#F95C19">Excellent Service</h5>
+                          <h6>
+                            Dronelivery's reliable service has helped our business to grow faster. We have had no complaints from
+                            our customers about our delivery partner. 
+                          </h6> 
+                          <div style="font-size: small;">
+                            Nikhil Kumar, CTO FreshlyDropped
+                          </div>
+                      </center>  
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card d-block mt-2 Testimonialscard" style="height: fit-content;">
+                    <div class="card-body" style="color: #261134;">
+                      <center>
+                          <h5 style="font-weight: bold;color: #F95C19;">Fast Delivery</h5> 
+                          <h6>
+                            Dronelivery helped me pick up my phone from an e-commerce site's vendor directly and delivered it to me 
+                            the same day. It was an awesome experience.
+                          </h6>  
+                          <div style="font-size: small;">
+                            Amir Singh, Customer
+                          </div>    
+                      </center>  
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card d-block mt-2 Testimonialscard" style="height: fit-content;">
+                    <div class="card-body" style="color: #261134;">
+                      <center>
+                          <h5 style="font-weight: bold;color:#F95C19">Good Response to Customer</h5> 
+                          <h6>
+                            Dronelivery is always on point in providing help about any queries on the shipment. We are extremely
+                            happy with Dronelivery's service.
+                          </h6>   
+                          <div style="font-size: small;">
+                            Dev Dutta, RD Logistics
+                          </div> 
+                      </center>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a> -->
+            </div>
+          </div>
+        </center>  
+      </div>    
+    </div>
+
+    <div class="container mb-5" id="contactus" style="color: #261134;min-height: 100%;">
+      <div style="height: 100%;width:100%;">
+        <div class="row d-flex flex-row justify-content-center">
+            <div class="h5 mt-5 mb-4" style="color:#F95C19;font-weight: bolder;">Contact Us</div>
+        </div>
+        <div class="card"  style="margin:0px;padding:0px;border-radius: 0 !important;">
+          <div class="row">
+               <div class="col col-12 col-md-6" >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15547.564996038724!2d80.22989908482036!3d13.042593702948407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526655a5da2371%3A0x4954f49743f04af0!2sT.%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1642343105245!5m2!1sen!2sin" width="100%" height="450px" style="border:0;margin:0;" allowfullscreen="true" loading="lazy"></iframe>
+               </div>
+
+               <div class="col col-12 rcol p-3 col-md-6 d-flex flex-column align-items-md-center justify-content-md-around" style="color: #261134;font-weight: 600;">
+                <div>
+                  <div class="mb-3 d-flex flux-row justify-content-center">Access Us Easily</div>
+
+                  <div class="row mb-4" style="width: 100%;">
+                     <div class="col col-2 d-none d-md-flex flex-col align-items-center justify-content-end">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 362.13 362.13" enable-background="new 0 0 362.13 362.13" style="fill: #F95C19;height:35px;width:35px;">
+                        <g>
+                          <path d="m181.065,0c-75.532,0-136.981,61.45-136.981,136.981 0,31.155 21.475,76.714 63.827,135.411 30.619,42.436 60.744,75.965 62.011,77.372l11.144,12.367 11.144-12.367c1.267-1.406 31.392-34.936 62.011-77.372 42.352-58.697 63.827-104.255 63.827-135.411-0.001-75.531-61.451-136.981-136.983-136.981zm0,316.958c-37.733-44.112-106.981-134.472-106.981-179.977 0-58.989 47.991-106.981 106.981-106.981s106.981,47.992 106.981,106.981c0.001,45.505-69.248,135.865-106.981,179.977z"/>
+                          <circle cx="181.065" cy="136.982" r="49.696"/>
+                        </g>
+                      </svg>
+                     </div>
+                     <div class="col col-12 col-md-10 mx-4 m-md-0">No 11, Ranganathan St, Post Office Colony, West Mambalam, Chennai, Tamil Nadu 600017</div>
+                   </div>
+
+                   <div class="row mb-4" style="width: 100%;">
+                    <div class="col col-2 d-none d-md-flex flex-col align-items-center justify-content-end">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 53.942 53.942" style="enable-background:new 0 0 53.942 53.942;width: 30px;height: 30px;" xml:space="preserve">
+                        <path d="M53.364,40.908c-2.008-3.796-8.981-7.912-9.288-8.092c-0.896-0.51-1.831-0.78-2.706-0.78c-1.301,0-2.366,0.596-3.011,1.68  c-1.02,1.22-2.285,2.646-2.592,2.867c-2.376,1.612-4.236,1.429-6.294-0.629L17.987,24.467c-2.045-2.045-2.233-3.928-0.632-6.291  c0.224-0.309,1.65-1.575,2.87-2.596c0.778-0.463,1.312-1.151,1.546-1.995c0.311-1.123,0.082-2.444-0.652-3.731  c-0.173-0.296-4.291-7.27-8.085-9.277c-0.708-0.375-1.506-0.573-2.306-0.573c-1.318,0-2.558,0.514-3.49,1.445L4.7,3.986  c-4.014,4.013-5.467,8.562-4.321,13.52c0.956,4.132,3.742,8.529,8.282,13.068l14.705,14.705c5.746,5.746,11.224,8.66,16.282,8.66  c0,0,0,0,0.001,0c3.72,0,7.188-1.581,10.305-4.698l2.537-2.537C54.033,45.163,54.383,42.833,53.364,40.908z" style="fill: #F95C19;"/>
+                      </svg>
+                    </div>
+                    <div class="col col-12 col-md-10 mx-4 m-md-0">111-222-3333</div>
+                  </div>
+
+                  <div class="row" style="width: 100%;">
+                    <div class="col col-2 d-none d-md-flex flex-col align-items-center justify-content-end">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 455.861 455.861" style="enable-background:new 0 0 455.861 455.861;fill: #F95C19;height: 30px;width: 30px;" xml:space="preserve">
+                        <g>
+                          <g>
+                            <g>
+                              <path d="M52.616,139.032l102.427,88.898L52.616,316.828c-6.162,5.349-6.823,14.68-1.474,20.843     c5.349,6.162,14.68,6.821,20.842,1.474l105.6-91.651l40.663,35.292c2.778,2.411,6.231,3.616,9.684,3.616s6.906-1.205,9.684-3.616     l40.663-35.292l105.6,91.651c6.162,5.348,15.493,4.688,20.842-1.474c5.349-6.163,4.688-15.494-1.474-20.843L300.819,227.93     l102.427-88.898c6.163-5.349,6.823-14.68,1.474-20.843c-5.349-6.163-14.682-6.822-20.842-1.474     c-8.592,7.457-146.799,127.408-155.947,135.348c-9.151-7.942-147.358-127.893-155.947-135.348     c-6.162-5.348-15.494-4.687-20.842,1.474C45.793,124.352,46.454,133.683,52.616,139.032z"/>
+                              <path d="M441.088,63.154H14.774C6.615,63.154,0,69.77,0,77.929v300.003c0,8.16,6.615,14.774,14.774,14.774h426.313     c8.16,0,14.774-6.614,14.774-14.774V77.929C455.862,69.77,449.248,63.154,441.088,63.154z M426.314,363.157h-0.001H29.549V92.703     h396.765V363.157z"/>
+                            </g>
+                          </g>
+                        </g>
+                        </svg>
+                    </div>
+                    <div class="col col-12 col-md-10 mx-4 m-md-0">info@dronelivery.com</div>
+                  </div>
+
+
+
+                </div>  
+
+
+               </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="d-flex justify-content-center mb-2" style="font-size: xx-small;font-weight: bolder;">
+      Made with &nbsp;<span style="color: red;">&#9829;</span>&nbsp; by Joshua Joseph Vaidyan.&nbsp;<br>
+      <span>Design Inspired from ThemeWagon's <a  href="https://www.figma.com/file/gW3c8tkayfKHyoVyMC4GcA/Quriarbox-Courier-Service-Website-Template-by-ThemeWagon-(Community)?node-id=301%3A17">Quriarbox Courier Service</a> design.</span>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
